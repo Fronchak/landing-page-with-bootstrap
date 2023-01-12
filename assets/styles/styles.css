@@ -86,3 +86,39 @@
         opacity: 1;
     }
 }
+
+/* LEARN CARDS CONTAINER */
+
+#learn-cards-container {
+    flex-wrap: wrap;
+}
+
+#learn-cards-container .learn-card {
+    max-width: 400px;
+}
+
+#learn-cards-container .learn-card p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#learn-cards-container .card-img {
+    background-position: center;
+    background-position: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#card-img-1 {
+    background-image: url('../imgs/hrz-1.jpg');
+}
+
+#card-img-2 {
+    background-image: url('../imgs/hrz-2.jpg');
+}
+
+#card-img-3 {
+    background-image: url('../imgs/hrz-3.jpg');
+}
