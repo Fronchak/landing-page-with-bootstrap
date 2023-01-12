@@ -122,3 +122,42 @@
 #card-img-3 {
     background-image: url('../imgs/hrz-3.jpg');
 }
+
+
+/* ADDRESS CONTAINER */
+
+#address-section-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/hrz-1.jpg);
+    padding: 3em 0;
+}
+
+#address-section-container i {
+    font-size: 4em;
+}
+
+#address-description-container p {
+    line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+    #address-section-container {
+        padding: 5em 0;
+    }
+
+    #address-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #address-section-container i {
+        margin-right: 10px;
+    }
+
+    .address-description-container p {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 1.4em;
+    }
+}
