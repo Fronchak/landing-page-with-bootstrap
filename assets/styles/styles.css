@@ -57,3 +57,32 @@
     border: none;
     color: #5D5D5D;
 } 
+
+#header-container #header-form-container button {
+    background-color: #EB1CCC;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+    #header-container #header-content-container {
+        text-align: left;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #header-container #header-form-container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    #header-container #header-form-container button {
+        opacity: 0.8;
+    }
+
+    #header-container #header-form-container button:hover {
+        opacity: 1;
+    }
+}
