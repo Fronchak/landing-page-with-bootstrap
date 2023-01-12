@@ -1,0 +1,59 @@
+* {
+    color: #fff;
+}
+
+.primary-color {
+    color: #EB1CCC;
+}
+
+.gray-color {
+    color: #5D5D5D;
+}
+
+.black-color {
+    color: #000;
+}
+
+.gray-bg-color {
+    background-color: #95989A;
+}
+
+#header-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/hrz-5.jpg);
+}
+
+
+/* HEADER-CONTAINER */
+
+#header-container #header-content-container {
+    text-align: center;
+}
+
+#header-container #header-content-container h1 {
+    font-size: 4em;
+}
+
+#header-container #header-content-container h2 {
+    font-size: 2em;
+}
+
+#header-container #header-content-container p {
+    font-size: 1.2em;
+}
+
+
+#header-container #header-form-container p {
+    font-size: 1.4em;
+}
+
+#header-container #header-form-container input,
+#header-container #header-form-container select {
+    border: none;
+} 
+
+#header-container #header-form-container input:focus,
+#header-container #header-form-container select:focus {
+    box-shadow: none;
+    border: none;
+    color: #5D5D5D;
+} 
