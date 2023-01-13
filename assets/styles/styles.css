@@ -244,6 +244,10 @@
     #ambiente-section #first-mini-section .ambiente-img {
         margin-right: 5em;
     }
+
+    #ambiente-section .ambiente-img {
+        width: 350px;
+    }
 }
 
 
@@ -270,4 +274,15 @@
     #cta-section button {
         max-width: 350px;
     }
+}
+
+
+/* Footer */
+
+footer h2 {
+    font-size: 3em;
+}
+
+footer p {
+    font-size: 1.5em;
 }
