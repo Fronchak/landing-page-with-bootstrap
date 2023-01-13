@@ -161,3 +161,39 @@
         font-size: 1.4em;
     }
 }
+
+
+/* AMBIENTE SECTION */
+
+#ambiente-section li,
+#ambiente-section h3 {
+    color: #000;
+}
+
+#ambiente-section .ambiente-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+#ambiente-section #first-mini-section .ambiente-img {
+    background-image: url('../imgs/hrz-3.jpg');
+}
+
+#ambiente-section #second-mini-section .ambiente-img {
+    background-image: url('../imgs/hrz-4.jpg');
+}
+
+#ambiente-section #third-mini-section .ambiente-img {
+    background-image: url('../imgs/hrz-5.jpg');
+}
+
+#ambiente-section #first-mini-section h2 {
+    font-size: 3em;
+}
+
+#ambiente-section h3 {
+    font-size: 2em;
+}
+
